@@ -147,7 +147,7 @@ const cases = [
   // plugin tokens, so its row renders empty without the builtin.
   [
     'lib/managed-config.js',
-    "        cell('machine', state.subtle, true),",
+    "        machineCell(state.subtle, true),",
     '',
     'agents: agent rows without the builtin machine cell hide remote agents',
   ],
